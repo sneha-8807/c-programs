@@ -1,0 +1,25 @@
+//programme by: Sneha Shee
+//Date: 02.10.2023
+//programme to separate individual characters from a string
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char testData[15];
+	int i;
+	clrscr();
+	printf("Enter your string:> ");
+	scanf("%s", testData);
+	for(i=0; i< sizeof(testData)-1; i++)
+	{
+		//printf("testData[%d] = %c\n", i, testData[i]);
+		if(isalpha(testData[i]) || testData[i]==' ')
+		{
+			printf("%c ", testData[i]);
+		}
+	}
+	getch();
+
+}
+
+

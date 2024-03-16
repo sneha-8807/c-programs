@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+int oddeven(int x);
+int main()
+{
+	int n;
+	clrscr();
+	printf("enter a number: ");
+	scanf("%d", &n);
+	oddeven(n);
+	return 0;
+}
+int oddeven(int x)
+{
+	int even=0;
+	int odd=0;
+
+	if(x%2==0)
+	{
+	    return even;
+	}
+	else
+	{
+	    return odd;
+	}
+	getch();
+}
